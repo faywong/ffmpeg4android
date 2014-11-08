@@ -5,7 +5,7 @@ building support of ffmpeg project in android platform
 
 how to use it
 =============
-1. check the source code of ffmpeg-2.4.3(only tested against this version)
+1. check out the source code of ffmpeg-2.4.3(only tested against this version)
 
 2. copy the configure script and replace the same one in the ffmpeg-2.4.3
 
