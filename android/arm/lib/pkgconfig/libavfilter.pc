@@ -7,7 +7,7 @@ Name: libavfilter
 Description: FFmpeg audio/video filtering library
 Version: 5.1.100
 Requires: 
-Requires.private: libswscale >= 3.0.100, libavformat >= 56.4.101, libavcodec >= 56.1.100, libswresample >= 1.1.100, libavutil >= 54.7.100
+Requires.private: libswscale >= 3.0.100, libpostproc >= 53.0.100, libavresample >= 2.1.0, libavformat >= 56.4.101, libavcodec >= 56.1.100, libswresample >= 1.1.100, libavutil >= 54.7.100
 Conflicts:
 Libs: -L${libdir}  -lavfilter 
 Libs.private: -lm -lz -pthread
